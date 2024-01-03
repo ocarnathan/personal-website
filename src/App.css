@@ -44,3 +44,40 @@
   border: 2px solid #163c88;
   margin-bottom: 20px;
 }
+.nav-wrapper {
+  background-color: #ffffff; /* Change background color */
+  height: 60px; /* Set the height of the navbar */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px; /* Add padding to the navbar */
+}
+
+.brand-logo {
+  font-size: 24px; /* Adjust the font size for the logo */
+  font-weight: bold;
+  color: #163c88; /* Change logo text color */
+  text-decoration: none; /* Remove underline for links */
+}
+
+ul#nav-mobile {
+  list-style: none; /* Remove default list styles */
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Adjust spacing between navbar links */
+}
+
+ul#nav-mobile li {
+  /* Add any additional styling for individual navbar links */
+}
+
+ul#nav-mobile li a {
+  color: #163c88; /* Change link color */
+  text-decoration: none; /* Remove underline for links */
+  font-size: 16px; /* Adjust font size */
+}
+
+ul#nav-mobile li a:hover {
+  /* Add hover styles for links if needed */
+  /* For example: background-color: #f0f0f0; */
+}
