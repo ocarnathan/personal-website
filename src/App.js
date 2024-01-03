@@ -1,9 +1,12 @@
 import photo from './GradPic.jpg';
 import './App.css';
+import React from 'react';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <h1>Welcome to my portfolio</h1>
       <p>Under construction</p>
       <img src={photo} alt="Grad Pic" class="Grad_Pic"></img>
