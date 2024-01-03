@@ -7,7 +7,7 @@ function Navbar() {
         <> {/* Fragments */}
             <nav>
                 <div className="nav-wrapper">
-                    <a href="#" className="brand-logo">Logo</a>
+                    <a href="#" className="brand-logo">OC</a>
                     <ul id="nav-mobile" className="right hide-on-med-and-down">
                         <li><a href="#">About Me</a></li>
                         <li><a href="#">Projects</a></li>
