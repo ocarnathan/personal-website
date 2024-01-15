@@ -2,15 +2,22 @@ import photo from './GradPic.jpg';
 import './App.css';
 import React from 'react';
 import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Projects from './Projects';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <h1>Welcome to my portfolio</h1>
-      <p>Under construction</p>
-      <img src={photo} alt="Grad Pic" class="Grad_Pic"></img>
-      <p>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/" element={
+            <>
+              <h1>Welcome to my portfolio</h1>
+              <p>Under construction</p>
+              <img src={photo} alt="Grad Pic" class="Grad_Pic"></img>
+              <p>
         Welcome to my portfolio! I'm a recent graduate from the University of Alabama at Birmingham, 
         where I earned a Bachelor's degree in computer science. My journey has been diverse—I proudly 
         served in the Marine Corps before diving into the world of technology. Driven by a passion for 
@@ -21,8 +28,12 @@ function App() {
         professional journey, featuring a collection of projects that highlight my technical skills 
         and dedication. I invite you to explore and connect as I embark on the next phase of my career, 
         ready to tackle new challenges and make meaningful contributions in the world of software engineering.
-      </p>
-    </div>
+              </p>
+            </>
+          } />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

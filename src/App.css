@@ -81,3 +81,15 @@ ul#nav-mobile li a:hover {
   /* Add hover styles for links if needed */
   /* For example: background-color: #f0f0f0; */
 }
+
+/* .App {
+  animation: change-background 10s infinite;
+}
+
+@keyframes change-background {
+  0% {background: red;}
+  25% {background: yellow;}
+  50% {background: blue;}
+  75% {background: green;}
+  100% {background: red;}
+} */
