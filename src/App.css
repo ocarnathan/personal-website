@@ -93,3 +93,8 @@ ul#nav-mobile li a:hover {
   75% {background: green;}
   100% {background: red;}
 } */
+
+iframe {
+  justify-content: center;
+  align-items: center;
+}

@@ -29,6 +29,8 @@ function App() {
         and dedication. I invite you to explore and connect as I embark on the next phase of my career, 
         ready to tackle new challenges and make meaningful contributions in the world of software engineering.
               </p>
+              <iframe height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/46847031/latest-rides/4f4353f485c18a89826633b4d1ba8ccac731aa8d'></iframe>
+
             </>
           } />
         </Routes>
