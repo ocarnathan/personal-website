@@ -1,0 +1,9 @@
+.nav-wrapper {
+    /* background-image: linear-gradient(to left, #037654 30%, #0a2643 30%); */
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .brand-logo {
+      animation: App-logo-spin infinite 10s linear;
+    }
+  }
