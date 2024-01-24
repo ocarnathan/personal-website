@@ -18,7 +18,7 @@ body {
   background-image: url(images/background.png);
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 .container {
@@ -44,36 +44,126 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none; /* remove underline */
-  color: #fff;
-  font-size: 18px;
-  position: relative;
+  color: #fff; /* color of text */
+  font-size: 18px; /* font size */
+  position: relative; /* position line - relative means relative to parent */
 }
 
 nav ul li a::after {
-  content: '';
-  width: 0;
-  height: 3px;
-  background: #3300ff;
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  transition: 0.5s;
+  content: ''; /* add content */
+  width: 0; /* width of line */
+  height: 3px; /* height of line */
+  background: #3300ff; /* color of line */
+  position: absolute; /* position line */
+  left: 0; /* position line */
+  bottom: -6px; /* position line */
+  transition: 0.5s; /* transition for animation */
 }
 
-nav ul li a:hover::after {
-  width: 100%;
+nav ul li a:hover::after { /* when hover over link */
+  width: 100%; /* width of line */
 }
 
 .header-text {
-  margin-top: 20%;
-  font-size: 30px;
+  margin-top: 20%; /* space from top */
+  font-size: 30px; /* font size */
 }
 
 .header-text h1 {
-  font-size: 60px;
-  font-weight: 700;
+  font-size: 60px; /* font size */
+  font-weight: 700; /* font weight */
 }
 
 .header-text h1 span {
-  color: #3300ff;
+  color: #3300ff; /* color of text */
 }
+
+/* ----------about me section---------- */
+#about {
+  padding: 80px 0; /* space from top and bottom */
+  color: #f7f3f3; /* color of text */
+}
+
+.row {
+  display: flex; /* place items in one row */
+  /*align-items: center;  vertically center items */
+  justify-content: space-between; /* evenly distribute items along the main axis */
+  flex-wrap: wrap; /* wrap items to next row */
+}
+
+.about-column-1 {
+  flex-basis: 35%; /* width of column */
+}
+
+.about-column-1 img {
+  width: 100%; /* width of image */
+  border-radius: 15px; /* border radius of image */
+}
+
+.about-column-2 {
+  flex-basis: 60%; /* width of column */
+  padding-left: 50px; /* space from left */
+}
+
+.sub-title {
+  font-size: 60px; /* font size */
+  font-weight: 600; /* font weight */
+  color: #fff; /* color of text */
+}
+
+.tab-titles {
+  display: flex; /* place items in one row */
+  margin: 20px 0 40px; /* space from top, bottom, left */
+}
+
+.tab-links {
+  margin-right: 50px; /* space from right */
+  font-size: 18px; /* font size */
+  font-weight: 500; /* font weight is simply the boldness of text */
+  cursor: pointer; /* cursor on hover */
+  position: relative; /* position line - relative means relative to parent */
+}
+
+.tab-links::after { /* line after link */
+  content: ''; /* add content */
+  width: 0; /* width of line */
+  height: 3px; /* height of line */
+  background: #3300ff; /* color of line */
+  position: absolute; /* position line */
+  left: 0; /* position line */
+  bottom: -8px; /* position line */
+  transition: 0.5s; /* transition for animation */
+}
+
+.tab-links:hover::after { /* when hover over link */
+  width: 100%; /* width of line */
+}
+
+.tab-links.active-link::after { /* when link is active */
+  width: 50%; /* width of line */
+}
+
+.tab-contents ul li { /* list items */
+  list-style: none; /* remove bullet points */
+  margin: 10px 0; /* space between items */
+}
+
+.tab-contents ul li span { /* span text */
+  margin-right: 10px; /* space from right */
+  color: #2b07b7; /* color of text */
+  font-size: 16px; /* font size */;
+}
+
+.tab-contents {
+  display: none;
+}
+
+.tab-contents.active-tab {
+  display: block;
+}
+
+.strava-badge- { display: inline-block; height: 48px; }
+.strava-badge- img { visibility: hidden; height: 48px; }
+.strava-badge-:hover { background-position: 0 -63px; }
+.strava-badge-follow { height: 48px; width: 48px; background: url(//badges.strava.com/echelon-sprite-48.png) no-repeat 0 0; }
+
