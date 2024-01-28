@@ -4,7 +4,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import logo from './images/logo2.png';
-import user from './images/runner2.jpeg';
+import user from './images/study.jpeg';
 import work1 from './images/work-1.png'
 import work2 from './images/work-2.png'
 import work3 from './images/work-3.png'
@@ -172,6 +172,7 @@ function App() {
                     </div>
                   </div>
                 </div>
+                <a href="#" className="btn">See more</a>
               </div>
             </div>
           </div>

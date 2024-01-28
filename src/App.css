@@ -280,3 +280,12 @@ nav ul li a:hover::after { /* when hover over link */
 .work:hover .layer {
   height: 100%;
 }
+
+.btn {
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  border: 1px solid #3300ff;
+  padding: 14px 50px;
+  border-radius: 6px;
+}
