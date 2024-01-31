@@ -288,4 +288,11 @@ nav ul li a:hover::after { /* when hover over link */
   border: 1px solid #3300ff;
   padding: 14px 50px;
   border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  transition: background 1s;
+}
+
+.btn:hover {
+  background:#3300ff;
 }
