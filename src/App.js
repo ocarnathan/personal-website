@@ -20,6 +20,12 @@ function App() {
     setActiveTab(tab); // setActiveTab is a function
   }
 
+  const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);
+
+  const toggleSideMenu = () => {
+    setIsSideMenuOpen(!isSideMenuOpen);
+  }
+
   return (
     <Router>
       <div className="App">
@@ -33,13 +39,15 @@ function App() {
               <div className="container" id="container"> 
                 <nav>
                   <img src={logo} className="logo"></img>
-                  <ul>
+                  <ul id="sidemenu" style={{ right: isSideMenuOpen ? '0' : '-200px'}}>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onClick={toggleSideMenu} > </i>
                   </ul>
+                  <i class="fa-solid fa-bars" onClick={toggleSideMenu} ></i>
                 </nav>
                 <div className="header-text">
                   <p>Software Engineer</p>
@@ -68,12 +76,16 @@ function App() {
                             ready to tackle new challenges and make meaningful contributions in the world of software engineering.
                             </p>
                             <div className="tab-titles">
+
                               <p className={activeTab === 'skills' ? 'tab-links active-link' : 'tab-links'} // if activeTab is skills, then active-link, else tab-links
-                               onClick={() => handleTabClick('skills')}>Skills</p> {/* when clicked, handleTabClick('skills') */}
+                               onClick={() => handleTabClick('skills')}>  Skills</p> {/* when clicked, handleTabClick('skills') */}
+
                               <p className={activeTab === 'experience' ? 'tab-links active-link' : 'tab-links'} // if activeTab is experience, then active-link, else tab-links
-                               onClick={() => handleTabClick('experience')}>Experience</p> {/* when clicked, handleTabClick('experience') */}
+                               onClick={() => handleTabClick('experience')}>  Experience</p> {/* when clicked, handleTabClick('experience') */}
+
                               <p className={activeTab === 'education' ? 'tab-links active-link' : 'tab-links'} // if activeTab is education, then active-link, else tab-links
-                               onClick={() => handleTabClick('education')}>Education</p> {/* when clicked, handleTabClick('education') */}
+                               onClick={() => handleTabClick('education')}> Education</p> {/* when clicked, handleTabClick('education') */}
+
                             </div>
                             <div className={activeTab === 'skills' ? 'tab-contents active-tab' : 'tab-contents'} id="skills">
                               <ul>
