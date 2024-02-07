@@ -104,11 +104,11 @@ function App() {
 {/* -------------Services---------------- */}         
               <div id="services">
               <div className="container">
-                <h1 className="sub-title">Placeholder</h1>
+                <h1 className="sub-title">My Services</h1>
                 <div className="services-list">
                   <div>
                   <i className="fa-solid fa-laptop-code"></i>
-                    <h2>Placeholder</h2>
+                    <h2>Web Design</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                       Aliquam tristique ornare dictum. Nunc quis magna neque. 
                       Suspendisse pretium, nibh non tempor porttitor, nunc ipsum 
@@ -118,7 +118,7 @@ function App() {
                   </div>
                   <div>
                   <i className="fa-solid fa-crop"></i>
-                    <h2>Placeholder</h2>
+                    <h2>UI/UX design</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                       Aliquam tristique ornare dictum. Nunc quis magna neque. 
                       Suspendisse pretium, nibh non tempor porttitor, nunc ipsum 
@@ -128,7 +128,7 @@ function App() {
                   </div>
                   <div>
                   <i className="fa-brands fa-app-store"></i>
-                    <h2>Placeholder</h2>
+                    <h2>Web Design</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                       Aliquam tristique ornare dictum. Nunc quis magna neque. 
                       Suspendisse pretium, nibh non tempor porttitor, nunc ipsum 
@@ -147,27 +147,27 @@ function App() {
                   <div className="work">
                     <img src={work1} alt="work-1"></img>
                     <div className="layer">
-                      <h3>Placeholder</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                      Aliquam tristique ornare dictum. Nunc quis magna neque. </p>
+                      <h3>Social Media App</h3>
+                      <p>The app connects you to the talented people around the world.
+                        Download it from the play store.</p>
                         <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                   </div>
                   <div className="work">
                     <img src={work2} alt="work-2"></img>
                     <div className="layer">
-                      <h3>Placeholder</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                      Aliquam tristique ornare dictum. Nunc quis magna neque. </p>
+                      <h3>Music App</h3>
+                      <p>The app connects you to the talented people around the world.
+                        Download it from the play store.</p>
                         <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                   </div>
                   <div className="work">
                     <img src={work3} alt="work-3"></img>
                     <div className="layer">
-                      <h3>Placeholder</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                      Aliquam tristique ornare dictum. Nunc quis magna neque. </p>
+                      <h3>Online Shopping App</h3>
+                      <p>The app connects you to the talented people around the world.
+                        Download it from the play store.</p>
                         <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                   </div>
@@ -181,16 +181,28 @@ function App() {
                 <div className="row">
                     <div className="contact-left">
                       <h1 className="sub-title">Contact Me</h1>
-                      <p>obiecarnathan@gmail.com</p>
-                      <p>205-901-3472</p>
+                      <p><i class="fa-solid fa-paper-plane"></i> obiecarnathan@gmail.com</p>
+                      <p><i class="fa-solid fa-phone"></i> 205-901-3472</p>
                       <div className="social-icons">
-                        <a href="#"></a>
+                        <a href="https://www.facebook.com/AllIKnowIsAmbition"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://github.com/ocarnathan"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/obie-carnathan-5ba660b9/"><i class="fa-brands fa-linkedin"></i></a>
                       </div>
+                      <a href="images/my-cv.pdf" download className="btn btn2">Download CV</a>
                     </div>
                     <div className="contact-right">
-
+                      <form>
+                        <input type="text" name="Name" placeholder="Your Name" required></input>
+                        <input type="email" name="email" placeholder="Your Email" required></input>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" className="btn btn2">Submit</button>
+                      </form>
                     </div>
                 </div>
+              </div>
+              <div className="copyright">
+                <p>Copyright @ Obie.</p>
               </div>
             </div>
 
