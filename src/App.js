@@ -9,6 +9,8 @@ import work1 from './images/work-1.png'
 import work2 from './images/work-2.png'
 import work3 from './images/work-3.png'
 import {useState} from 'react';
+import MyFormComponent from './components/MyFormComponent';
+
 
 function App() {
   //When the page loads, the active tab is skills
@@ -40,11 +42,11 @@ function App() {
                 <nav>
                   <img src={logo} className="logo"></img>
                   <ul id="sidemenu" style={{ right: isSideMenuOpen ? '0' : '-200px'}}>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <i class="fa-solid fa-xmark" onClick={toggleSideMenu} > </i>
                   </ul>
                   <i class="fa-solid fa-bars" onClick={toggleSideMenu} ></i>
@@ -204,12 +206,13 @@ function App() {
                       <a href="images/my-cv.pdf" download className="btn btn2">Download CV</a>
                     </div>
                     <div className="contact-right">
-                      <form>
+                      {/* <form name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Your Name" required></input>
-                        <input type="email" name="email" placeholder="Your Email" required></input>
+                        <input type="email" name="Email" placeholder="Your Email" required></input>
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                         <button type="submit" className="btn btn2">Submit</button>
-                      </form>
+                      </form> */}
+                      <MyFormComponent />
                     </div>
                 </div>
               </div>
