@@ -161,7 +161,7 @@ function App() {
                   <div className="work">
                     <img src={work1} alt="work-1"></img>
                     <div className="layer">
-                      <h3>Social Media App</h3>
+                      <h3>Generic App</h3>
                       <p>The app connects you to the talented people around the world.
                         Download it from the play store.</p>
                         <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
@@ -170,7 +170,7 @@ function App() {
                   <div className="work">
                     <img src={work2} alt="work-2"></img>
                     <div className="layer">
-                      <h3>Music App</h3>
+                      <h3>Generic App</h3>
                       <p>The app connects you to the talented people around the world.
                         Download it from the play store.</p>
                         <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
@@ -179,7 +179,7 @@ function App() {
                   <div className="work">
                     <img src={work3} alt="work-3"></img>
                     <div className="layer">
-                      <h3>Online Shopping App</h3>
+                      <h3>Generic App</h3>
                       <p>The app connects you to the talented people around the world.
                         Download it from the play store.</p>
                         <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
@@ -196,7 +196,7 @@ function App() {
                     <div className="contact-left">
                       <h1 className="sub-title">Contact Me</h1>
                       <p><i class="fa-solid fa-paper-plane"></i> obiecarnathan@gmail.com</p>
-                      <p><i class="fa-solid fa-phone"></i> 205-901-3472</p>
+                      <p><i class="fa-solid fa-phone"></i> 205-0010-0000</p>
                       <div className="social-icons">
                         <a href="https://www.facebook.com/AllIKnowIsAmbition"><i class="fa-brands fa-facebook"></i></a>
                         <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
