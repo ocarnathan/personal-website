@@ -333,6 +333,10 @@ nav ul li a:hover::after { /* when hover over link */
   transition: transform 0.5s;
 }
 
+.strava-badge {
+  width: 10px; /* Adjust the width as needed */
+  height: auto; /* This will maintain the aspect ratio */
+}
 
 .social-icons a:hover {
   color: #3300ff;

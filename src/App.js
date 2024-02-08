@@ -44,7 +44,7 @@ function App() {
                   <ul id="sidemenu" style={{ right: isSideMenuOpen ? '0' : '-200px'}}>
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="#services">Interests</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <i class="fa-solid fa-xmark" onClick={toggleSideMenu} > </i>
@@ -118,7 +118,7 @@ function App() {
 {/* -------------Services---------------- */}         
               <div id="services">
               <div className="container">
-                <h1 className="sub-title">My Services</h1>
+                <h1 className="sub-title">My Interests</h1>
                 <div className="services-list">
                   <div>
                   <i className="fa-solid fa-laptop-code"></i>
@@ -202,6 +202,7 @@ function App() {
                         <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
                         <a href="https://github.com/ocarnathan"><i class="fa-brands fa-github"></i></a>
                         <a href="https://www.linkedin.com/in/obie-carnathan-5ba660b9/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://strava.com/athletes/46847031" class="strava-badge- strava-badge-follow" target="_blank"><img src="//badges.strava.com/echelon-sprite-48.png" alt="Strava" /></a>
                       </div>
                       <a href="images/my-cv.pdf" download className="btn btn2">Download CV</a>
                     </div>
