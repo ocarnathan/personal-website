@@ -21,9 +21,11 @@ function App() {
   const handleTabClick = (tab) => { // tab is a variable
     setActiveTab(tab); // setActiveTab is a function
   }
-
+    //When the page loads, the side menu is closed
   const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);
-
+  
+  const [isFormSubmitted, setIsFormSubmitted] = useState(false);
+ 
   const toggleSideMenu = () => {
     setIsSideMenuOpen(!isSideMenuOpen);
   }
@@ -122,33 +124,29 @@ function App() {
                 <div className="services-list">
                   <div>
                   <i className="fa-solid fa-laptop-code"></i>
-                    <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                      Aliquam tristique ornare dictum. Nunc quis magna neque. 
-                      Suspendisse pretium, nibh non tempor porttitor, nunc ipsum 
-                      scelerisque lacus, sed tristique turpis turpis et massa. 
+                    <h2>Web Development</h2>
+                    <p>I have experience in building web applications using HTML, CSS, and JavaScript. I favor 
+                      back-end development and have experience with Python, Node.js, Express, and MongoDB. I feel that as I
+                      work on more projects, I will become more proficient in full-stack development.
                       </p>
-                    <a href="#">learn more</a>
+                    {/* <a href="#">learn more</a> */}
                   </div>
                   <div>
-                  <i className="fa-solid fa-crop"></i>
-                    <h2>UI/UX design</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                      Aliquam tristique ornare dictum. Nunc quis magna neque. 
-                      Suspendisse pretium, nibh non tempor porttitor, nunc ipsum 
-                      scelerisque lacus, sed tristique turpis turpis et massa. 
+                  <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h2>Mobile Development</h2>
+                    <p>At this time I have not had the opportunity to work on any mobile development projects. In the near future,
+                      I plan to work on an IOS app using Swift. The app will be an independent project. 
                       </p>
-                    <a href="#">learn more</a>
+                    {/* <a href="#">learn more</a> */}
                   </div>
                   <div>
-                  <i className="fa-brands fa-app-store"></i>
-                    <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                      Aliquam tristique ornare dictum. Nunc quis magna neque. 
-                      Suspendisse pretium, nibh non tempor porttitor, nunc ipsum 
-                      scelerisque lacus, sed tristique turpis turpis et massa. 
+                  <i class="fa-solid fa-fingerprint"></i>
+                    <h2>Cybersecurity</h2>
+                    <p>Cybersecurity is a field that I am interested in. 
+                      I have taken a few courses that have introduced me to the field. 
+                      I plan to pursue a master's degree in cybersecurity at the University of Alabama at Birmingham.
                       </p>
-                    <a href="#">learn more</a>
+                    {/* <a href="#">learn more</a> */}
                   </div>
                 </div>
               </div>
@@ -199,7 +197,6 @@ function App() {
                       <p><i class="fa-solid fa-phone"></i> 205-0010-0000</p>
                       <div className="social-icons">
                         <a href="https://www.facebook.com/AllIKnowIsAmbition"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
                         <a href="https://github.com/ocarnathan"><i class="fa-brands fa-github"></i></a>
                         <a href="https://www.linkedin.com/in/obie-carnathan-5ba660b9/"><i class="fa-brands fa-linkedin"></i></a>
                         <a href="https://strava.com/athletes/46847031" class="strava-badge- strava-badge-follow" target="_blank"><img src="//badges.strava.com/echelon-sprite-48.png" alt="Strava" /></a>
@@ -214,6 +211,7 @@ function App() {
                         <button type="submit" className="btn btn2">Submit</button>
                       </form> */}
                       <MyFormComponent />
+                      <span id="msg" style={{ visibility: isFormSubmitted ? 'block' : 'hidden' }}>Form submitted!</span>
                     </div>
                 </div>
               </div>
