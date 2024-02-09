@@ -13,8 +13,8 @@ function MyFormComponent() {
       .then(response => {
         console.log('Success!', response)// Success message
         setIsFormSubmitted(true); // Show success message to user
+        setTimeout(() => setIsFormSubmitted(false), 5000); // Hide success message after 5 seconds
         form.reset(); // Reset form
-      
       })
       .catch(error => console.error('Error!', error.message)); // Error message
   }
