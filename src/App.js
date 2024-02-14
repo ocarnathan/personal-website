@@ -93,14 +93,14 @@ function App() {
                             </div>
                             <div className={activeTab === 'skills' ? 'tab-contents active-tab' : 'tab-contents'} id="skills">
                               <ul>
-                                <li><span>UI/UX</span><br></br>Designing Web/App interfaces</li>
-                                <li><span>Web Development</span><br></br>Web App Development</li>
-                                <li><span>App Development</span><br></br>Building Android/IOS apps</li>
+                                <li><span>UI/UX</span><br></br>Designing Web interfaces</li>
+                                <li><span>Full Stack Web Development</span><br></br>Python, JavaScript, React, WordPress</li>
+                                {/* <li><span>App Development</span><br></br>Building Android/IOS apps</li> */}
                               </ul>
                             </div>
                             <div className={activeTab === 'experience' ? 'tab-contents active-tab' : 'tab-contents'} id="experience">
                               <ul>
-                                <li><span>N/A</span><br></br>No experience at this time.</li>
+                                <li><span>February 2024-Present</span><br></br>Kinetic-Developer Intern</li>
                                 {/* <li><span>Web Development</span><br></br>Web App Development</li>
                                 <li><span>App Development</span><br></br>Building Android/IOS apps</li> */}
                               </ul>
@@ -155,7 +155,8 @@ function App() {
             <div id="portfolio">
               <div className="container">
                 <h1 className="sub-title">My Work/Projects</h1>
-                <div className="work-list">
+                <h2 className="temp">Coming Soon!</h2>
+                {/* <div className="work-list">
                   <div className="work">
                     <img src={work1} alt="work-1"></img>
                     <div className="layer">
@@ -184,7 +185,7 @@ function App() {
                     </div>
                   </div>
                 </div>
-                <a href="#" className="btn">See more</a>
+                <a href="#" className="btn">See more</a> */}
               </div>
             </div>
 {/* ----------------contact------------- */}
@@ -194,14 +195,14 @@ function App() {
                     <div className="contact-left">
                       <h1 className="sub-title">Contact Me</h1>
                       <p><i class="fa-solid fa-paper-plane"></i> obiecarnathan@gmail.com</p>
-                      <p><i class="fa-solid fa-phone"></i> 205-0010-0000</p>
+                      <p><i class="fa-solid fa-phone"></i> 205-901-3472</p>
                       <div className="social-icons">
                         <a href="https://www.facebook.com/AllIKnowIsAmbition"><i class="fa-brands fa-facebook"></i></a>
                         <a href="https://github.com/ocarnathan"><i class="fa-brands fa-github"></i></a>
                         <a href="https://www.linkedin.com/in/obie-carnathan-5ba660b9/"><i class="fa-brands fa-linkedin"></i></a>
                         <a href="https://strava.com/athletes/46847031" class="strava-badge- strava-badge-follow" target="_blank"><img src="//badges.strava.com/echelon-sprite-48.png" alt="Strava" /></a>
                       </div>
-                      <a href="images/my-cv.pdf" download className="btn btn2">Download CV</a>
+                      {/* <a href="images/my-cv.pdf" download className="btn btn2">Download CV</a> */}
                     </div>
                     <div className="contact-right">
                       {/* <form name="submit-to-google-sheet">

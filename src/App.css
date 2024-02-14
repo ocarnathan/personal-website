@@ -218,6 +218,10 @@ nav ul li a:hover::after { /* when hover over link */
 }
 
 /* -------------portfolio-------------- */
+.temp {
+  padding: 50px;
+}
+
 #portfolio {
   padding: 50px 0;
 }
