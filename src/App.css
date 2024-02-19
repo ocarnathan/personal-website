@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
@@ -8,7 +8,7 @@
   background-attachment: fixed;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -27,14 +27,18 @@ body {
 }
 
 .container {
-  padding : 10px 10%;
+  padding: 10px 10%;
 }
 
 nav {
-  display: flex; /* place items in one row */
-  align-items: center; /* vertically center items */
-  justify-content: space-between; /* evenly distribute items along the main axis */
-  flex-wrap: wrap; /* wrap items to next row */
+  display: flex;
+  /* place items in one row */
+  align-items: center;
+  /* vertically center items */
+  justify-content: space-between;
+  /* evenly distribute items along the main axis */
+  flex-wrap: wrap;
+  /* wrap items to next row */
 }
 
 .logo {
@@ -42,121 +46,184 @@ nav {
 }
 
 nav ul li {
-  list-style: none; /* remove bullet points */
-  display: inline-block; /* place items in one row */
-  margin: 10px 20px; /* space between items */
+  list-style: none;
+  /* remove bullet points */
+  display: inline-block;
+  /* place items in one row */
+  margin: 10px 20px;
+  /* space between items */
 }
 
 nav ul li a {
-  text-decoration: none; /* remove underline */
-  color: #fff; /* color of text */
-  font-size: 18px; /* font size */
-  position: relative; /* position line - relative means relative to parent */
+  text-decoration: none;
+  /* remove underline */
+  color: #fff;
+  /* color of text */
+  font-size: 18px;
+  /* font size */
+  position: relative;
+  /* position line - relative means relative to parent */
 }
 
 nav ul li a::after {
-  content: ''; /* add content */
-  width: 0; /* width of line */
-  height: 3px; /* height of line */
-  background: #3300ff; /* color of line */
-  position: absolute; /* position line */
-  left: 0; /* position line */
-  bottom: -6px; /* position line */
-  transition: 0.5s; /* transition for animation */
+  content: '';
+  /* add content */
+  width: 0;
+  /* width of line */
+  height: 3px;
+  /* height of line */
+  background: #3300ff;
+  /* color of line */
+  position: absolute;
+  /* position line */
+  left: 0;
+  /* position line */
+  bottom: -6px;
+  /* position line */
+  transition: 0.5s;
+  /* transition for animation */
 }
 
-nav ul li a:hover::after { /* when hover over link */
-  width: 100%; /* width of line */
+nav ul li a:hover::after {
+  /* when hover over link */
+  width: 100%;
+  /* width of line */
 }
 
 .header-text {
-  margin-top: 20%; /* space from top */
-  font-size: 30px; /* font size */
+  margin-top: 20%;
+  /* space from top */
+  font-size: 30px;
+  /* font size */
 }
 
 .header-text h1 {
-  font-size: 60px; /* font size */
-  font-weight: 700; /* font weight */
+  font-size: 60px;
+  /* font size */
+  font-weight: 700;
+  /* font weight */
 }
 
 .header-text h1 span {
-  color: #3300ff; /* color of text */
+  color: #3300ff;
+  /* color of text */
 }
 
 /* ----------about me section---------- */
 #about {
-  padding: 80px 0; /* space from top and bottom */
-  color: #f7f3f3; /* color of text */
+  padding: 80px 0;
+  /* space from top and bottom */
+  color: #f7f3f3;
+  /* color of text */
 }
 
 .row {
-  display: flex; /* place items in one row */
+  display: flex;
+  /* place items in one row */
   /*align-items: center;  vertically center items */
-  justify-content: space-between; /* evenly distribute items along the main axis */
-  flex-wrap: wrap; /* wrap items to next row */
+  justify-content: space-between;
+  /* evenly distribute items along the main axis */
+  flex-wrap: wrap;
+  /* wrap items to next row */
 }
 
 .about-column-1 {
-  flex-basis: 35%; /* width of column */
+  flex-basis: 35%;
+  /* width of column */
 }
 
 .about-column-1 img {
-  width: 100%; /* width of image */
-  border-radius: 15px; /* border radius of image */
+  width: 100%;
+  /* width of image */
+  border-radius: 15px;
+  /* border radius of image */
 }
 
 .about-column-2 {
-  flex-basis: 60%; /* width of column */
-  padding-left: 50px; /* space from left */
+  flex-basis: 60%;
+  /* width of column */
+  padding-left: 50px;
+  /* space from left */
 }
 
 .sub-title {
-  font-size: 60px; /* font size */
-  font-weight: 600; /* font weight */
-  color: #fff; /* color of text */
+  font-size: 60px;
+  /* font size */
+  font-weight: 600;
+  /* font weight */
+  color: #fff;
+  /* color of text */
 }
 
 .tab-titles {
-  display: flex; /* place items in one row */
-  margin: 20px 0 40px; /* space from top, bottom, left */
+  display: flex;
+  /* place items in one row */
+  margin: 20px 0 40px;
+  /* space from top, bottom, left */
 }
 
 .tab-links {
-  margin-right: 50px; /* space from right */
-  font-size: 18px; /* font size */
-  font-weight: 500; /* font weight is simply the boldness of text */
-  cursor: pointer; /* cursor on hover */
-  position: relative; /* position line - relative means relative to parent */
+  margin-right: 50px;
+  /* space from right */
+  font-size: 18px;
+  /* font size */
+  font-weight: 500;
+  /* font weight is simply the boldness of text */
+  cursor: pointer;
+  /* cursor on hover */
+  position: relative;
+  /* position line - relative means relative to parent */
 }
 
-.tab-links::after { /* line after link */
-  content: ''; /* add content */
-  width: 0; /* width of line */
-  height: 3px; /* height of line */
-  background: #3300ff; /* color of line */
-  position: absolute; /* position line */
-  left: 0; /* position line */
-  bottom: -8px; /* position line */
-  transition: 0.5s; /* transition for animation */
+.tab-links::after {
+  /* line after link */
+  content: '';
+  /* add content */
+  width: 0;
+  /* width of line */
+  height: 3px;
+  /* height of line */
+  background: #3300ff;
+  /* color of line */
+  position: absolute;
+  /* position line */
+  left: 0;
+  /* position line */
+  bottom: -8px;
+  /* position line */
+  transition: 0.5s;
+  /* transition for animation */
 }
 
-.tab-links:hover::after { /* when hover over link */
-  width: 100%; /* width of line */
+.tab-links:hover::after {
+  /* when hover over link */
+  width: 100%;
+  /* width of line */
 }
 
-.tab-links.active-link::after { /* when link is active */
-  width: 50%; /* width of line */
+.tab-links.active-link::after {
+  /* when link is active */
+  width: 50%;
+  /* width of line */
 }
 
-.tab-contents ul li { /* list items */
-  list-style: none; /* remove bullet points */
-  margin: 10px 0; /* space between items */
+.tab-contents ul li {
+  /* list items */
+  list-style: none;
+  /* remove bullet points */
+  margin: 10px 0;
+  /* space between items */
 }
 
-.tab-contents ul li span { /* span text */
-  margin-right: 10px; /* space from right */
-  color: #2b07b7; /* color of text */
-  font-size: 16px; /* font size */;
+.tab-contents ul li span {
+  /* span text */
+  margin-right: 10px;
+  /* space from right */
+  color: #2b07b7;
+  /* color of text */
+  font-size: 16px;
+  /* font size */
+  ;
 }
 
 .tab-contents {
@@ -167,10 +234,25 @@ nav ul li a:hover::after { /* when hover over link */
   display: block;
 }
 
-.strava-badge- { display: inline-block; height: 48px; }
-.strava-badge- img { visibility: hidden; height: 48px; }
-.strava-badge-:hover { background-position: 0 -63px; }
-.strava-badge-follow { height: 48px; width: 48px; background: url(//badges.strava.com/echelon-sprite-48.png) no-repeat 0 0; }
+.strava-badge- {
+  display: inline-block;
+  height: 48px;
+}
+
+.strava-badge- img {
+  visibility: hidden;
+  height: 48px;
+}
+
+.strava-badge-:hover {
+  background-position: 0 -63px;
+}
+
+.strava-badge-follow {
+  height: 48px;
+  width: 48px;
+  background: url(//badges.strava.com/echelon-sprite-48.png) no-repeat 0 0;
+}
 
 /* -------------services-------------- */
 #services {
@@ -187,7 +269,7 @@ nav ul li a:hover::after { /* when hover over link */
 .services-list div {
   background: #262626;
   padding: 40px;
-  font-size:13px;
+  font-size: 13px;
   font-weight: 300;
   border-radius: 10px;
   transition: background 0.5s, transform 0.5s;
@@ -249,7 +331,7 @@ nav ul li a:hover::after { /* when hover over link */
 .layer {
   width: 100%;
   height: 0%;
-  background: linear-gradient(rgba(0,0,0,0.6), #3300ff);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #3300ff);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -265,10 +347,11 @@ nav ul li a:hover::after { /* when hover over link */
   transition: height 0.5s;
 }
 
-.layer h3{
+.layer h3 {
   font-weight: 500;
   margin-bottom: 20px;
 }
+
 .layer a {
   margin-top: 20px;
   color: #3300ff;
@@ -282,7 +365,7 @@ nav ul li a:hover::after { /* when hover over link */
   text-align: center;
 }
 
-.work:hover img{
+.work:hover img {
   transform: scale(1.1);
 }
 
@@ -303,13 +386,14 @@ nav ul li a:hover::after { /* when hover over link */
 }
 
 .btn:hover {
-  background:#3300ff;
+  background: #3300ff;
 }
 
 /* ------------contact------------- */
 .contact-left {
   flex-basis: 35%;
 }
+
 .contact-right {
   flex-basis: 60%;
 }
@@ -339,8 +423,10 @@ nav ul li a:hover::after { /* when hover over link */
 }
 
 .strava-badge {
-  width: 10px; /* Adjust the width as needed */
-  height: auto; /* This will maintain the aspect ratio */
+  width: 10px;
+  /* Adjust the width as needed */
+  height: auto;
+  /* This will maintain the aspect ratio */
 }
 
 .social-icons a:hover {
@@ -357,7 +443,8 @@ nav ul li a:hover::after { /* when hover over link */
   width: 100%;
 }
 
-form input, form textarea{
+form input,
+form textarea {
   width: 100%;
   border: 0;
   outline: none;
@@ -390,7 +477,7 @@ form .btn2 {
 
 } */
 /* ---------------css for small screens---------- */
-nav .fa-solid{
+nav .fa-solid {
   display: none;
 }
 
@@ -399,17 +486,21 @@ nav .fa-solid{
     background-image: url(images/background-phone.png);
     background-attachment: fixed;
   }
-  .header-text{
+
+  .header-text {
     margin-top: 100%;
     font-size: 16px;
   }
-  .header-text h1{
+
+  .header-text h1 {
     font-size: 30px;
   }
-  nav .fa-solid{
+
+  nav .fa-solid {
     display: block;
     font-size: 25px;
   }
+
   nav ul {
     background: #3300ff;
     position: fixed;
@@ -421,6 +512,7 @@ nav .fa-solid{
     z-index: 2;
     transition: right 0.5s;
   }
+
   nav ul li {
     display: block;
     margin: 25px;
@@ -437,7 +529,8 @@ nav .fa-solid{
     font-size: 40px;
   }
 
-  .about-column-1, .about-column-2 {
+  .about-column-1,
+  .about-column-2 {
     flex-basis: 100%;
   }
 
@@ -455,7 +548,8 @@ nav .fa-solid{
     margin-right: 20px;
   }
 
-  .contact-left, .contact-right {
+  .contact-left,
+  .contact-right {
     flex-basis: 100%;
   }
 
@@ -463,6 +557,7 @@ nav .fa-solid{
     font-size: 14px;
   }
 }
+
 #msg {
   color: #61b752;
   margin-top: -40px;

@@ -7,8 +7,7 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
-    />
+      content="Web site created using create-react-app" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -34,9 +33,9 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div> <!-- This is where the React app will be rendered -->
     <script
-    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-  ></script>
-  <script src="https://kit.fontawesome.com/2b68d2ab24.js" crossorigin="anonymous"></script>
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/2b68d2ab24.js"
+      crossorigin="anonymous"></script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -47,6 +46,12 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <style>
+      .strava-badge- { display: inline-block; height: 32px; }
+      .strava-badge- img { visibility: hidden; height: 32px; }
+      .strava-badge-:hover { background-position: 0 -47px; }
+      .strava-badge-follow { height: 32px; width: 32px; background: url(//badges.strava.com/echelon-sprite-32.png) no-repeat 0 0; }
+    </style>
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbwhECFpWBxV5gIMPDMw6xYrre9iXJzUQjZkDkao9PIDIV-YrJDZauYkx6MGjAnaTnlT2g/exec'
       const form = document.forms['submit-to-google-sheet']
