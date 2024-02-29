@@ -224,6 +224,7 @@ nav ul li a:hover::after {
   /* color of text */
   font-size: 16px;
   /* font size */
+  font-weight: bold;
   ;
 }
 
