@@ -155,7 +155,7 @@ function App() {
                 <div id="portfolio">
                   <div className="container">
                     <h1 className="sub-title">My Work/Projects</h1>
-                    <h2 className="temp">My personal projects will be listed soon. If you would like to see what I am working on/studying outside of my iternship please visit my GitHub</h2>
+                    <h2 className="temp">My personal projects will be listed soon. If you would like to see what I am working on/studying outside of my internship please visit my GitHub</h2>
                     {/* <div className="work-list">
                   <div className="work">
                     <img src={work1} alt="work-1"></img>
