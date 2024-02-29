@@ -217,7 +217,7 @@ function App() {
                     </div>
                   </div>
                   <div className="copyright">
-                    <p>Copyright @ Obie.</p>
+                    <p>© 2024 Obie. All rights reserved.</p>
                   </div>
                 </div>
 
