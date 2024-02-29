@@ -155,7 +155,7 @@ function App() {
                 <div id="portfolio">
                   <div className="container">
                     <h1 className="sub-title">My Work/Projects</h1>
-                    <h2 className="temp">Coming Soon!</h2>
+                    <h2 className="temp">My personal projects will be listed soon. If you would like to see what I am working on/studying outside of my iternship please visit my GitHub</h2>
                     {/* <div className="work-list">
                   <div className="work">
                     <img src={work1} alt="work-1"></img>
@@ -200,7 +200,7 @@ function App() {
                           <a href="https://www.facebook.com/AllIKnowIsAmbition"><i class="fa-brands fa-facebook"></i></a>
                           <a href="https://github.com/ocarnathan"><i class="fa-brands fa-github"></i></a>
                           <a href="https://www.linkedin.com/in/obie-carnathan-5ba660b9/"><i class="fa-brands fa-linkedin"></i></a>
-                          <a href="https://strava.com/athletes/46847031" class="strava-badge- strava-badge-follow" target="_blank"><img src="//badges.strava.com/echelon-sprite-48.png" alt="Strava" /></a>
+                          {/* <a href="https://strava.com/athletes/46847031" class="strava-badge- strava-badge-follow" target="_blank"><img src="//badges.strava.com/echelon-sprite-48.png" alt="Strava" /></a> */}
                         </div>
                         {/* <a href="images/my-cv.pdf" download className="btn btn2">Download CV</a> */}
                       </div>

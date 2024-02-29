@@ -125,6 +125,7 @@ nav ul li a:hover::after {
   /* evenly distribute items along the main axis */
   flex-wrap: wrap;
   /* wrap items to next row */
+  /*  */
 }
 
 .about-column-1 {
