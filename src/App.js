@@ -109,7 +109,7 @@ function App() {
                         <div className={activeTab === 'education' ? 'tab-contents active-tab' : 'tab-contents'} id="education">
                           <ul>
                             <li><span>2020-2023</span><br></br>Bachelor's of Science in Computer Science</li>
-                            <li><span>Tentative</span><br></br>Master's in Cyber Security</li>
+                            <li><span>Tentative</span><br></br>Master's of Science in Cyber Security</li>
                             {/* <li><span>Web Development</span><br></br>Web App Development</li>
                                 <li><span>App Development</span><br></br>Building Android/IOS apps</li> */}
                           </ul>
