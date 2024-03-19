@@ -93,7 +93,7 @@ function App() {
                         </div>
                         <div className={activeTab === 'skills' ? 'tab-contents active-tab' : 'tab-contents'} id="skills">
                           <ul>
-                            <li><span>Database Management</span><br></br>AWS RDS, MySQL, SQLite,PostgreSQL</li>
+                            <li><span>Database Management</span><br></br>AWS RDS, MySQL, SQLite, PostgreSQL</li>
                             <li><span>Full Stack Web Development</span><br></br>Python, JavaScript, React, WordPress</li>
                             <li><span>Cloud Services</span><br></br>AWS services, including AWS S3 for storage and cloud-based solutions.</li>
                             {/* <li><span>App Development</span><br></br>Building Android/IOS apps</li> */}
