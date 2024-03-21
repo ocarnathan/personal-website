@@ -411,6 +411,17 @@ nav ul li a:hover::after {
 
 }
 
+.contact-left p a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+.contact-left p a:hover {
+  color: #3300ff;
+  transform: translateY(-5px);
+}
+
 .social-icons {
   margin-top: 30px;
 }

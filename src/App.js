@@ -157,7 +157,7 @@ function App() {
                 <div id="portfolio">
                   <div className="container">
                     <h1 className="sub-title">My Work/Projects</h1>
-                    <h2 className="temp">My personal projects will be listed soon. If you would like to see what I am working on/studying outside of my internship please visit my GitHub</h2>
+                    <h2 className="temp">My personal projects will be listed soon. If you would like to see what I am working on/studying outside of my internship please visit my GitHub.</h2>
                     {/* <div className="work-list">
                   <div className="work">
                     <img src={work1} alt="work-1"></img>
@@ -196,8 +196,9 @@ function App() {
                     <div className="row">
                       <div className="contact-left">
                         <h1 className="sub-title">Contact Me</h1>
-                        <p><i class="fa-solid fa-paper-plane"></i> obiecarnathan@gmail.com</p>
-                        <p><i class="fa-solid fa-phone"></i> 205-901-3472</p>
+                        <p><i class="fa-solid fa-paper-plane"></i>obiecarnathan@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>205-901-3472</p>
+                        <p><i class="fa-solid fa-file"></i><a href="https://drive.google.com/file/d/1g0zRMtmLt9ufRPPQtHMkfnlpAyYRTnsb/view?usp=sharing"> Resume</a></p>
                         <div className="social-icons">
                           <a href="https://www.facebook.com/AllIKnowIsAmbition"><i class="fa-brands fa-facebook"></i></a>
                           <a href="https://github.com/ocarnathan"><i class="fa-brands fa-github"></i></a>
