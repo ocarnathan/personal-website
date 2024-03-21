@@ -68,15 +68,15 @@ function App() {
                       <div className="about-column-2">
                         <h1 className="sub-title">About Me</h1>
                         <p className="bio">
-                          Welcome to my portfolio! I'm a recent graduate from the University of Alabama at Birmingham,
-                          where I earned a Bachelor's degree in computer science. My journey has been diverse—I proudly
+                          Welcome to a very early version of my portfolio site! I'm a recent graduate from the University of Alabama at Birmingham,
+                          where I earned a Bachelor's degree in computer science, graduating with cum laude honors. My journey has been diverse—I proudly
                           served in the Marine Corps before diving into the world of technology. Driven by a passion for
                           problem-solving and innovation, I aspire to make my mark as a software engineer. My ambition
                           includes contributing my skills to the government sector, but I'm also eager to explore opportunities
                           across different domains. I believe in the power of continuous learning and experience-building,
-                          recognizing that each opportunity enriches my expertise. This portfolio is a glimpse into my
-                          professional journey, featuring a collection of projects that highlight my technical skills
-                          and dedication. I invite you to explore and connect as I embark on the next phase of my career,
+                          recognizing that each opportunity enriches my expertise. This portfolio will act as a glimpse into my
+                          professional journey. I plan to feature a collection of projects that highlight my technical skills
+                          and dedication. At this juncture, while my experience beyond college remains minimal, I am resolute in my determination to apply and expand upon my skills. I invite you to explore and connect as I embark on the next phase of my career,
                           ready to tackle new challenges and make meaningful contributions in the world of software engineering.
                         </p>
                         <div className="tab-titles">
@@ -94,14 +94,14 @@ function App() {
                         <div className={activeTab === 'skills' ? 'tab-contents active-tab' : 'tab-contents'} id="skills">
                           <ul>
                             <li><span>Database Management</span><br></br>AWS RDS, MySQL, SQLite, PostgreSQL</li>
-                            <li><span>Full Stack Web Development</span><br></br>Python, JavaScript, React, WordPress</li>
+                            <li><span>Full Stack Web Development</span><br></br>Python, JavaScript, React, PHP, Java, WordPress</li>
                             <li><span>Cloud Services</span><br></br>AWS services, including AWS S3 for storage and cloud-based solutions.</li>
                             {/* <li><span>App Development</span><br></br>Building Android/IOS apps</li> */}
                           </ul>
                         </div>
                         <div className={activeTab === 'experience' ? 'tab-contents active-tab' : 'tab-contents'} id="experience">
                           <ul>
-                            <li><span>January 2024-Present</span><br></br>Kinetic-Developer Intern</li>
+                            <li><span>January 2024-Present</span><br></br>Kinetic Communications-Developer Intern</li>
                             {/* <li><span>Web Development</span><br></br>Web App Development</li>
                                 <li><span>App Development</span><br></br>Building Android/IOS apps</li> */}
                           </ul>
@@ -109,7 +109,7 @@ function App() {
                         <div className={activeTab === 'education' ? 'tab-contents active-tab' : 'tab-contents'} id="education">
                           <ul>
                             <li><span>2020-2023</span><br></br>Bachelor's of Science in Computer Science</li>
-                            <li><span>Tentative</span><br></br>Master's of Science in Cyber Security</li>
+                            <li><span>Present</span><br></br>Master's of Science in Cyber Security</li>
                             {/* <li><span>Web Development</span><br></br>Web App Development</li>
                                 <li><span>App Development</span><br></br>Building Android/IOS apps</li> */}
                           </ul>
@@ -220,7 +220,7 @@ function App() {
                     </div>
                   </div>
                   <div className="copyright">
-                    <p>© 2024 Obie. All rights reserved.</p>
+                    <p>© 2024 Obie Carnathan. All rights reserved.</p>
                   </div>
                 </div>
 
