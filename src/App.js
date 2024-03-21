@@ -201,9 +201,9 @@ function App() {
                         <p><i class="fa-solid fa-phone"></i>205-901-3472</p>
                         <p><i class="fa-solid fa-file"></i><a href="https://drive.google.com/file/d/1g0zRMtmLt9ufRPPQtHMkfnlpAyYRTnsb/view?usp=sharing"> Resume</a></p>
                         <div className="social-icons">
-                          <a href="https://www.facebook.com/AllIKnowIsAmbition"><i class="fa-brands fa-facebook"></i></a>
-                          <a href="https://github.com/ocarnathan"><i class="fa-brands fa-github"></i></a>
-                          <a href="https://www.linkedin.com/in/obie-carnathan-5ba660b9/"><i class="fa-brands fa-linkedin"></i></a>
+                          <a href="https://www.facebook.com/AllIKnowIsAmbition" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                          <a href="https://github.com/ocarnathan" target="_blank"><i class="fa-brands fa-github"></i></a>
+                          <a href="https://www.linkedin.com/in/obie-carnathan-5ba660b9/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                           {/* <a href="https://strava.com/athletes/46847031" class="strava-badge- strava-badge-follow" target="_blank"><img src="//badges.strava.com/echelon-sprite-48.png" alt="Strava" /></a> */}
                         </div>
                         {/* <a href="images/my-cv.pdf" download className="btn btn2">Download CV</a> */}
