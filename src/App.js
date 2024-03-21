@@ -68,16 +68,17 @@ function App() {
                       <div className="about-column-2">
                         <h1 className="sub-title">About Me</h1>
                         <p className="bio">
-                          Welcome to a very early version of my portfolio site! I'm a recent graduate from the University of Alabama at Birmingham,
-                          where I earned a Bachelor's degree in computer science, graduating with cum laude honors. My journey has been diverse—I proudly
-                          served in the Marine Corps before diving into the world of technology. Driven by a passion for
-                          problem-solving and innovation, I aspire to make my mark as a software engineer. My ambition
-                          includes contributing my skills to the government sector, but I'm also eager to explore opportunities
-                          across different domains. I believe in the power of continuous learning and experience-building,
-                          recognizing that each opportunity enriches my expertise. This portfolio will act as a glimpse into my
-                          professional journey. I plan to feature a collection of projects that highlight my technical skills
-                          and dedication. At this juncture, while my experience beyond college remains minimal, I am resolute in my determination to apply and expand upon my skills. I invite you to explore and connect as I embark on the next phase of my career,
-                          ready to tackle new challenges and make meaningful contributions in the world of software engineering.
+                        Hello and welcome to my website! I'm excited to share my journey as a recent computer science graduate from the University of Alabama at Birmingham, 
+                        where I earned my Bachelor's degree with cum laude honors. My background spans from proudly serving in the Marine Corps to immersing myself in the 
+                        dynamic field of technology. <br></br><br></br>Driven by a passion for problem-solving and innovation, I'm dedicated to making a positive impact both professionally 
+                        and personally as a devoted father and husband. My experiences have honed my ability to tackle complex challenges head-on and find creative solutions. 
+                        <br></br><br></br>As an aspiring software engineer, I'm eager to leverage my skills and expertise to contribute meaningfully, particularly within the government sector but 
+                        I am open to explore opportunities across different domains. I believe in the power of continuous learning and experience-building, recognizing that each 
+                        opportunity enriches my expertise. <br></br><br></br>While this portfolio is in its early stages, I plan to showcase a diverse range of projects that demonstrate my 
+                        technical proficiency and dedication to excellence. From personal endeavors to academic assignments and professional ventures, each project represents 
+                        a milestone in my journey as a software engineer. <br></br><br></br>As I embark on the next phase of my career, I invite recruiters to explore my resume via the 
+                        link below and connect with me to discuss how my skills align with your organization's needs. Let's collaborate on exciting opportunities and together, make impactful 
+                        contributions to the world of software engineering.
                         </p>
                         <div className="tab-titles">
 
