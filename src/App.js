@@ -8,6 +8,7 @@ import user from './images/study.jpeg';
 import work1 from './images/kinetic.png'
 import work2 from './images/Fitness.png'
 import work3 from './images/srvr.png'
+import work4 from './images/ifarm.png'
 import { useState } from 'react';
 import MyFormComponent from './components/MyFormComponent';
 
@@ -158,8 +159,29 @@ function App() {
                 <div id="portfolio">
                   <div className="container">
                     <h1 className="sub-title">My Work/Projects</h1>
+                    {/* <h2 className="temp">These are a few of my more notable projects.</h2> */}
                     {/* <h2 className="temp">My personal projects will be listed soon. If you would like to see what I am working on/studying outside of my internship please visit my GitHub.</h2> */}
                     <div className="work-list">
+                  <div className="work">
+                    <img src={work3} alt="work-3"></img>
+                    <div className="layer">
+                      <h3>SRVR-Mock food deliver website</h3>
+                      <p>This web app is a mock food delivery website. This was a collaborative capstone project between myself and 5 other CS students at UAB.</p>
+                        <a href="https://github.com/alexp230/CS499-FinalProject"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                  </div>
+                  <div className="work">
+                    <img src={work4} alt="work-2"></img>
+                    <div className="layer">
+                      <h3>Farm Drone Management</h3>
+                      <p>As a pivotal member of a 4-person team in a software engineering course, contributed significantly to the
+                          development of a sophisticated user interface for drone-based farm management simulation. Utilized
+                          Java, Java FX, and Scene Builder to create an intuitive UI enabling users to manage farm items like buildings,
+                          crops, and animals.
+                      </p>
+                        <a href="https://github.com/ocarnathan/_IFarm_Project_Skywalkers"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                  </div>
                   <div className="work">
                     <img src={work1} alt="work-1"></img>
                     <div className="layer">
@@ -181,16 +203,8 @@ function App() {
                         <a href="https://ocarnathan.github.io/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                   </div>
-                  <div className="work">
-                    <img src={work3} alt="work-3"></img>
-                    <div className="layer">
-                      <h3>SRVR-Mock food deliver website</h3>
-                      <p>This web app is a mock food delivery website. This was a collaborative capstone project between myself and 5 other CS students at UAB.</p>
-                        <a href="https://github.com/alexp230/CS499-FinalProject"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                  </div>
                 </div>
-                <a href="#" className="btn">See more</a>
+                {/* <a href="#" className="btn">See more</a> */}
                   </div>
                 </div>
                 {/* ----------------contact------------- */}
