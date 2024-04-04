@@ -4,7 +4,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import logo from './images/logo2.png';
-import user from './images/study.jpeg';
+import user from './images/study.png';
 import work1 from './images/kinetic.png'
 import work2 from './images/Fitness.png'
 import work3 from './images/srvr.png'
