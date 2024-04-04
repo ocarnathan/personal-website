@@ -498,6 +498,8 @@ nav .fa-solid {
   .header {
     background-image: url(images/background-phone.png);
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
   }
 
   .header-text {
@@ -568,6 +570,10 @@ nav .fa-solid {
 
   .copyright {
     font-size: 14px;
+  }
+  .temp {
+    font-size: 14px;
+    padding: 10px;
   }
 }
 
