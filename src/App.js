@@ -64,7 +64,7 @@ function App() {
                   <div className="container">
                     <div className="row">
                       <div className="about-column-1">
-                        <img src={user} alt=''></img>
+                        <img src={user} alt='obie'></img>
                       </div>
                       <div className="about-column-2">
                         <h1 className="sub-title">About Me</h1>
