@@ -5,9 +5,9 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import logo from './images/logo2.png';
 import user from './images/study.jpeg';
-import work1 from './images/work-1.png'
-import work2 from './images/work-2.png'
-import work3 from './images/work-3.png'
+import work1 from './images/kinetic.png'
+import work2 from './images/Fitness.png'
+import work3 from './images/srvr.png'
 import { useState } from 'react';
 import MyFormComponent from './components/MyFormComponent';
 
@@ -158,37 +158,39 @@ function App() {
                 <div id="portfolio">
                   <div className="container">
                     <h1 className="sub-title">My Work/Projects</h1>
-                    <h2 className="temp">My personal projects will be listed soon. If you would like to see what I am working on/studying outside of my internship please visit my GitHub.</h2>
-                    {/* <div className="work-list">
+                    {/* <h2 className="temp">My personal projects will be listed soon. If you would like to see what I am working on/studying outside of my internship please visit my GitHub.</h2> */}
+                    <div className="work-list">
                   <div className="work">
                     <img src={work1} alt="work-1"></img>
                     <div className="layer">
-                      <h3>Generic App</h3>
-                      <p>The app connects you to the talented people around the world.
-                        Download it from the play store.</p>
-                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      <h3>Web Developer Intern Project</h3>
+                      <p>As an intern at Kinetic, I've been tasked to first build a mock website using only HTML/CSS. Once the build is complete, I then must 
+                        rebuild it from scratch using PHP and JavaScript.
+                      </p>
+                        <a href="https://github.com/ocarnathan/Intern_Website_Project" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                   </div>
                   <div className="work">
                     <img src={work2} alt="work-2"></img>
                     <div className="layer">
-                      <h3>Generic App</h3>
-                      <p>The app connects you to the talented people around the world.
-                        Download it from the play store.</p>
-                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      <h3>Fitness Marketing Website</h3>
+                      <p>This site is actually a project that I am working on for a friend who's a personal trainer in the Birmingham area. The vision is for the 
+                        finished product to be a website that advertises his services, demonstrate his credibility, and walk potential clients through the process 
+                        of investing in his services. The live site is linked below, but it won't be advertised until it is completed.
+                      </p>
+                        <a href="https://ocarnathan.github.io/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                   </div>
                   <div className="work">
                     <img src={work3} alt="work-3"></img>
                     <div className="layer">
-                      <h3>Generic App</h3>
-                      <p>The app connects you to the talented people around the world.
-                        Download it from the play store.</p>
-                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      <h3>SRVR-Mock food deliver website</h3>
+                      <p>This web app is a mock food delivery website. This was a collaborative capstone project between myself and 5 other CS students at UAB.</p>
+                        <a href="https://github.com/alexp230/CS499-FinalProject"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                   </div>
                 </div>
-                <a href="#" className="btn">See more</a> */}
+                <a href="#" className="btn">See more</a>
                   </div>
                 </div>
                 {/* ----------------contact------------- */}
