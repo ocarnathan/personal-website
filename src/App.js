@@ -214,8 +214,8 @@ function App() {
                     <div className="row">
                       <div className="contact-left">
                         <h1 className="sub-title">Contact Me</h1>
-                        <p><i class="fa-solid fa-paper-plane"></i>obiecarnathan@gmail.com</p>
-                        <p><i class="fa-solid fa-phone"></i>205-901-3472</p>
+                        <p><i class="fa-solid fa-paper-plane"></i><a href="mailto:obiecarnathan@gmail.com">obiecarnathan@gmail.com</a></p>
+                        <p><i class="fa-solid fa-phone"></i><a href="tel:205-901-3472">205-901-3472</a></p>
                         <p><i class="fa-solid fa-file"></i><a href="https://drive.google.com/file/d/1g0zRMtmLt9ufRPPQtHMkfnlpAyYRTnsb/view?usp=sharing"> Resume</a></p>
                         <div className="social-icons">
                           <a href="https://www.facebook.com/AllIKnowIsAmbition" target="_blank"><i class="fa-brands fa-facebook"></i></a>
