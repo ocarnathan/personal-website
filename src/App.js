@@ -130,7 +130,7 @@ function App() {
                         <i className="fa-solid fa-laptop-code"></i>
                         <h2>Web Development</h2>
                         <p>I have experience in building web applications using HTML, CSS, and JavaScript. I favor
-                          back-end development and have experience with Python, Node.js, Express, and MongoDB. I feel that as I
+                          back-end development and database integration using technolies such as AWS RDS, MySQL, SQLite, and PostgreSQL. I have experience with Python, Node.js, Express, and MongoDB. I feel that as I
                           work on more projects, I will become more proficient in full-stack development.
                         </p>
                         {/* <a href="#">learn more</a> */}
@@ -159,6 +159,7 @@ function App() {
                 <div id="portfolio">
                   <div className="container">
                     <h1 className="sub-title">My Work/Projects</h1>
+                    <h2 className="temp">Tap/Hover over an image for summary and a link to the repository or live app.</h2>
                     {/* <h2 className="temp">These are a few of my more notable projects.</h2> */}
                     {/* <h2 className="temp">My personal projects will be listed soon. If you would like to see what I am working on/studying outside of my internship please visit my GitHub.</h2> */}
                     <div className="work-list">
