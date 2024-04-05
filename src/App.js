@@ -9,6 +9,7 @@ import work1 from './images/kinetic.png'
 import work2 from './images/Fitness.png'
 import work3 from './images/srvr.png'
 import work4 from './images/ifarm.png'
+import work5 from './images/artvision.png'
 import { useState } from 'react';
 import MyFormComponent from './components/MyFormComponent';
 
@@ -167,20 +168,34 @@ function App() {
                     <img src={work3} alt="work-3"></img>
                     <div className="layer">
                       <h3>SRVR-Mock food deliver website</h3>
-                      <p>This web app is a mock food delivery website. This was a collaborative capstone project between myself and 5 other CS students at UAB.</p>
+                      <p>As a dedicated backend engineer within a proficient 6-person capstone team, played a pivotal role in
+                        crafting SRVR—a sophisticated meal delivery platform reminiscent of HelloFresh. Orchestrated backend
+                        development using Python with Flask, powering critical functionalities for user account management, order
+                        processing, and subscription handling.</p>
                         <a href="https://github.com/alexp230/CS499-FinalProject"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                   </div>
                   <div className="work">
                     <img src={work4} alt="work-2"></img>
                     <div className="layer">
-                      <h3>Farm Drone Management</h3>
+                      <h3>Agriculture Drone UI</h3>
                       <p>As a pivotal member of a 4-person team in a software engineering course, contributed significantly to the
                           development of a sophisticated user interface for drone-based farm management simulation. Utilized
                           Java, Java FX, and Scene Builder to create an intuitive UI enabling users to manage farm items like buildings,
                           crops, and animals.
                       </p>
                         <a href="https://github.com/ocarnathan/_IFarm_Project_Skywalkers"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                  </div>
+                  <div className="work">
+                    <img src={work5} alt="work-2"></img>
+                    <div className="layer">
+                      <h3>Art Vision</h3>
+                      <p>As a pivotal backend engineer within a collaborative team of 4 students, contributed significantly to the
+                        development of Art Vision—an interactive e-commerce art gallery website. Responsible for architecting and
+                        implementing the robust backend infrastructure using Python, Django, and PostgreSQL.
+                      </p>
+                        <a href="https://github.com/jzubia25/CS-421-Final-Project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                   </div>
                   <div className="work">
