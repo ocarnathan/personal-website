@@ -214,7 +214,7 @@ function App() {
                       <h3>Fitness Marketing Website</h3>
                       <p>This site is actually a project that I am working on for a friend who's a personal trainer in the Birmingham area. The vision is for the 
                         finished product to be a website that advertises his services, demonstrate his credibility, and walk potential clients through the process 
-                        of investing in his services. The live site is linked below, but it won't be advertised until it is completed.
+                        of investing in his services. The live site is linked below, but it won't be advertised until it is completed and it's also not currently optimized for mobile view.
                       </p>
                         <a href="https://ocarnathan.github.io/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
