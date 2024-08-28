@@ -106,8 +106,8 @@ function App() {
                         </div>
                         <div className={activeTab === 'experience' ? 'tab-contents active-tab' : 'tab-contents'} id="experience">
                           <ul>
-                            <li><span>January 2024-Present</span><br></br>Kinetic Communications-Developer Intern</li>
-                            <li><span>May 2024-Present</span><br></br>Amazon-Software Development Engineer Intern</li>
+                            <li><span>January 2024 - May 2024</span><br></br>Kinetic Communications-Developer Intern</li>
+                            <li><span>May 2024 - August 2024</span><br></br>Amazon-Software Development Engineer Intern</li>
                             {/* <li><span>Web Development</span><br></br>Web App Development</li>
                                 <li><span>App Development</span><br></br>Building Android/IOS apps</li> */}
                           </ul>
