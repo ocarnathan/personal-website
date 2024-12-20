@@ -59,7 +59,7 @@ function App() {
                   </nav>
                   <div className="header-text">
                     <p>Software Engineer</p>
-                    <h1>Hi, I'm <span>Obie</span> <br></br> Carnathan from Birmingham, AL</h1>
+                    <h1>Hi, I'm <span>Obie <br></br> Carnathan</span> from Birmingham, AL</h1>
                   </div>
                 </div>
                 {/* -------------about me section---------------- */}
@@ -99,7 +99,7 @@ function App() {
                         <div className={activeTab === 'skills' ? 'tab-contents active-tab' : 'tab-contents'} id="skills">
                           <ul>
                             <li><span>Database Management</span><br></br>AWS RDS, MySQL, SQLite, PostgreSQL</li>
-                            <li><span>Full Stack Web Development</span><br></br>Python, JavaScript, React, PHP, Java, WordPress</li>
+                            <li><span>Full Stack Web Development</span><br></br>Python, JavaScript, React, PHP, Java, WordPress, Solidity(Web3)</li>
                             <li><span>Cloud Services</span><br></br>AWS services, including AWS S3 for storage and cloud-based solutions.</li>
                             {/* <li><span>App Development</span><br></br>Building Android/IOS apps</li> */}
                           </ul>
