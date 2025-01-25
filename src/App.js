@@ -120,7 +120,7 @@ function App() {
                                 <li><span>App Development</span><br></br>Building Android/IOS apps</li> */}
                           </ul>
                         </div>
-                        {/* <iframe height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/46847031/latest-rides/4f4353f485c18a89826633b4d1ba8ccac731aa8d'></iframe> */}
+                        <iframe height='454' width='600' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/46847031/latest-rides/4f4353f485c18a89826633b4d1ba8ccac731aa8d'></iframe>
                       </div>
                     </div>
                   </div>
@@ -134,8 +134,7 @@ function App() {
                         <i className="fa-solid fa-laptop-code"></i>
                         <h2>Web Development</h2>
                         <p>I have experience in building web applications using HTML, CSS, and JavaScript. I favor
-                          back-end development and database integration using technolies such as AWS RDS, MySQL, SQLite, and PostgreSQL. I have experience with Python, Node.js, Express, and MongoDB. I feel that as I
-                          work on more projects, I will become more proficient in full-stack development.
+                          back-end development and database integration using technolies such as AWS RDS, MySQL, SQLite, and PostgreSQL. I have experience with Python, Node.js, Express, and MongoDB. I am currently developing a fitness website for an aspiring personal trainer in the Birmingham area.
                         </p>
                         {/* <a href="#">learn more</a> */}
                       </div>
@@ -151,8 +150,7 @@ function App() {
                         <i class="fa-solid fa-fingerprint"></i>
                         <h2>Cybersecurity</h2>
                         <p>Cybersecurity is a field that I am interested in.
-                          I have taken a few courses that have introduced me to the field.
-                          I plan to pursue a master's degree in cybersecurity at the University of Alabama at Birmingham.
+                          This semester I am currently taking Networking, Network Security, and Modern Cryptography.
                         </p>
                         {/* <a href="#">learn more</a> */}
                       </div>
