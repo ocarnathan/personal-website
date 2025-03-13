@@ -218,7 +218,7 @@ function App() {
                         <a href="https://pizzagrace.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                   </div>
-                  <div className="work">
+                  {/* <div className="work">
                     <img src={magic} alt="magic city art"></img>
                     <div className="layer">
                       <h3>Magic City Art Connection</h3>
@@ -226,16 +226,16 @@ function App() {
                       </p>
                         <a href="https://magiccityart.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="work">
                     <img src={fitness} alt="work-2"></img>
                     <div className="layer">
                       <h3>Fitness Marketing Website</h3>
-                      <p>This site is actually a project that I am working on for a friend who's a personal trainer in the Birmingham area. The vision is for the 
+                      <p>This site is a project that I am working on for a friend who's a personal trainer in the Birmingham area. The vision is for the 
                         finished product to be a website that advertises his services, demonstrate his credibility, and walk potential clients through the process 
                         of investing in his services. The live site is linked below, but it won't be advertised until it is completed and it's also not currently optimized for mobile view.
                       </p>
-                        <a href="https://ocarnathan.github.io/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://www.meechietaughtme.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                   </div>
                   <div className="work">
