@@ -120,7 +120,7 @@ function App() {
                                 <li><span>App Development</span><br></br>Building Android/IOS apps</li> */}
                           </ul>
                         </div>
-                        <iframe height='454' width='600' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/46847031/latest-rides/4f4353f485c18a89826633b4d1ba8ccac731aa8d'></iframe>
+                        {/* <iframe height='454' width='600' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/46847031/latest-rides/4f4353f485c18a89826633b4d1ba8ccac731aa8d'></iframe> */}
                       </div>
                     </div>
                   </div>
@@ -236,6 +236,20 @@ function App() {
                         of investing in his services. The live site is linked below, but it won't be advertised until it is completed and it's also not currently optimized for mobile view.
                       </p>
                         <a href="https://ocarnathan.github.io/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                  </div>
+                  <div className="work">
+                    <img src={fitness} alt="work-2"></img>
+                    <div className="layer">
+                      <h3>Distributed Voting Website</h3>
+                      <p>This project is a distributed voting website built using Solidity and the Ethereum blockchain. 
+                        It leverages a smart contract deployed on the Coston Testnet to ensure a secure and transparent voting process. 
+                        The system enables users to register, cast votes, and view results, using Ethereum addresses and unique voter 
+                        tokens to maintain voter integrity and prevent duplicate votes. The website integrates with the blockchain to 
+                        dynamically fetch candidates and election results in real time, showcasing the potential of decentralized 
+                        applications in election systems.
+                      </p>
+                        <a href="https://github.com/TD008/web3-g6" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                   </div>
                 </div>
