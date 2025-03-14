@@ -12,6 +12,7 @@ import ifarm from './images/ifarm.png'
 import artvision from './images/artvision.png'
 import pizzagrace from './images/grace.png'
 import magic from './images/magic.png'
+import election from './images/ElectionDay.png'
 import { useState } from 'react';
 import MyFormComponent from './components/MyFormComponent';
 
@@ -199,7 +200,7 @@ function App() {
                         <a href="https://github.com/jzubia25/CS-421-Final-Project" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                   </div>
-                  <div className="work">
+                  {/* <div className="work">
                     <img src={kinetic} alt="kinetic"></img>
                     <div className="layer">
                       <h3>Web Developer Intern Project</h3>
@@ -208,7 +209,7 @@ function App() {
                       </p>
                         <a href="https://github.com/ocarnathan/Intern_Website_Project" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="work">
                     <img src={pizzagrace} alt="pizza grace"></img>
                     <div className="layer">
@@ -239,7 +240,7 @@ function App() {
                     </div>
                   </div>
                   <div className="work">
-                    <img src={fitness} alt="work-2"></img>
+                    <img src={election} alt="work-2"></img>
                     <div className="layer">
                       <h3>Distributed Voting Website</h3>
                       <p>This project is a distributed voting website built using Solidity and the Ethereum blockchain. 
