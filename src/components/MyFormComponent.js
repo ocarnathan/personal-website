@@ -2,7 +2,7 @@ import React from 'react';
 import {useState} from 'react';
 
 function MyFormComponent() {
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzP8SIDLDzIHooCxMCU6b2dZDr_KhGGWJh1x2WozU6235XwBULl6mWaLMc0oojARHM5tw/exec';
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxh8320TJAkf8D6Jt0VJyGT8YCOTK00XIFU4E_QUg9z16Q2PeN4dF4b8HhUhJloI6RsZw/exec';
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
 
   const handleSubmit = (e) => {
