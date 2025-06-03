@@ -265,7 +265,7 @@ function App() {
                         <h1 className="sub-title">Contact Me</h1>
                         <p><i class="fa-solid fa-paper-plane"></i><a href="mailto:obiecarnathan@gmail.com">obiecarnathan@gmail.com</a></p>
                         <p><i class="fa-solid fa-phone"></i><a href="tel:205-901-3472">205-901-3472</a></p>
-                        <p><i class="fa-solid fa-file"></i><a href="https://drive.google.com/file/d/1hkgqgwIBuXbY7sCSMUI821Oqe3Q2VOVS/view?usp=sharing"> Resume</a></p>
+                        <p><i class="fa-solid fa-file"></i><a href="https://drive.google.com/file/d/1HN2cyrqRuIk0KzdSX6azaNmykQdxOjsS/view?usp=sharing"> Resume</a></p>
                         <div className="social-icons">
                           <a href="https://www.facebook.com/AllIKnowIsAmbition" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                           <a href="https://github.com/ocarnathan" target="_blank"><i class="fa-brands fa-github"></i></a>
