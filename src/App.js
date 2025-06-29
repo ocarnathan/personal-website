@@ -97,18 +97,29 @@ function App() {
                             onClick={() => handleTabClick('education')}> Education</p> {/* when clicked, handleTabClick('education') */}
 
                         </div>
-                        <div className={activeTab === 'skills' ? 'tab-contents active-tab' : 'tab-contents'} id="skills">
-                          <ul>
-                            <li><span>Database Management</span><br></br>AWS RDS, MySQL, SQLite, PostgreSQL</li>
-                            <li><span>Full Stack Web Development</span><br></br>Python, JavaScript, React, PHP, Java, WordPress, Solidity(Web3)</li>
-                            <li><span>Cloud Services</span><br></br>AWS services, including AWS S3 for storage and cloud-based solutions.</li>
-                            {/* <li><span>App Development</span><br></br>Building Android/IOS apps</li> */}
-                          </ul>
-                        </div>
+<div className={activeTab === 'skills' ? 'tab-contents active-tab' : 'tab-contents'} id="skills">
+  <ul>
+    <li>
+      <span>Database Management</span><br />
+      MySQL, PostgreSQL, SQLite, DynamoDB, AWS RDS
+    </li>
+    <li>
+      <span>Full Stack Web Development</span><br />
+      JavaScript, React, Python, PHP, Java, WordPress, Solidity (Web3)
+    </li>
+    <li>
+      <span>Cloud Services</span><br />
+      AWS (S3, RDS, and other cloud-based solutions)
+    </li>
+    {/* <li><span>App Development</span><br />Building Android/iOS apps</li> */}
+  </ul>
+</div>
+
                         <div className={activeTab === 'experience' ? 'tab-contents active-tab' : 'tab-contents'} id="experience">
                           <ul>
-                            <li><span>January 2024 - May 2024</span><br></br>Kinetic Communications-Developer Intern</li>
-                            <li><span>May 2024 - August 2024</span><br></br>Amazon-Software Development Engineer Intern</li>
+                            <li><span>January 2024 - May 2024</span><br></br>Kinetic Communications-Web Developer Intern</li>
+                            <li><span>May 2024 - August 2024</span><br></br>Amazon (AWS)-Software Development Engineer Intern</li>
+                            <li><span>May 2025 - August 2025</span><br></br>Amazon (Alexa)-Software Development Engineer Intern</li>
                             {/* <li><span>Web Development</span><br></br>Web App Development</li>
                                 <li><span>App Development</span><br></br>Building Android/IOS apps</li> */}
                           </ul>
