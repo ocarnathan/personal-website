@@ -1,9 +1,9 @@
-import srvr from '../images/srvr.png';
-import ifarm from '../images/ifarm.png';
-import artvision from '../images/artvision.png';
-import pizzagrace from '../images/grace.png';
+import srvr from '../images/srvr1.png';
+import ifarm from '../images/ifarm1.png';
+import artvision from '../images/artvision1.png';
+import pizzagrace from '../images/grace1.png';
 import fitness from '../images/fitness1.png';
-import election from '../images/electionday.png';
+import election from '../images/electionday1.png';
 
 const projects = [
   {
