@@ -5,6 +5,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -15,12 +16,13 @@ function App() {
         <Routes>
           <Route path="/" element={
             <>
-              <div className="header" id="header">
+              <div className="main" id="main">
                 <Header />
                 <About />
                 <Services />
                 <Portfolio />
                 <Contact />
+                <Footer />
               </div>
             </>
           } />

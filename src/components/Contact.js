@@ -30,9 +30,6 @@ function Contact() {
                     </div>
                 </div>
             </div>
-            <div className="copyright">
-                <p>© 2025 Obie Carnathan. All rights reserved.</p>
-            </div>
         </div>
     );
 }
