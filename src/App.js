@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={
             <>
-              <div className="main" id="main">
+              <div className="header" id="header">
                 <Header />
                 <About />
                 <Services />

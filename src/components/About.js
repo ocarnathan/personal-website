@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import user from '../images/study.png';
+import user from '../images/headshot.jpg';
 
 
 function About() {
