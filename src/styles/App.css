@@ -486,9 +486,6 @@ form .btn2 {
   margin-top: 20px;
 }
 
-/* .copyright i {
-
-} */
 /* ---------------css for small screens---------- */
 nav .fa-solid {
   display: none;
@@ -496,7 +493,7 @@ nav .fa-solid {
 
 @media only screen and (max-width: 600px) {
   .header {
-    background-image: url(images/background-phone.png);
+    background-image: url(../images/background-phone.png);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
