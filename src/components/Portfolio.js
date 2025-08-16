@@ -1,7 +1,6 @@
 import projects from '../data/projects';
 
 function Portfolio() {
-
     return (
         <div id="portfolio">
             <div className="container">
