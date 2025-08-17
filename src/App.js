@@ -17,12 +17,12 @@ function App() {
           <Route path="/" element={
             <>
               <div className="header" id="header">
-                <Header />
-                <About />
-                <Services />
-                <Portfolio />
-                <Contact />
-                <Footer />
+                <Header/>
+                <About/>
+                <Services/>
+                <Portfolio/>
+                <Contact/>
+                <Footer/>
               </div>
             </>
           } />

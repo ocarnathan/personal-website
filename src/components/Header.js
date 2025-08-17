@@ -9,7 +9,6 @@ function Header() {
     };
 
     return (
-
             <div className="container" id="container">
                 <nav>
                     <img src={logo} className="logo" alt="logo" />
